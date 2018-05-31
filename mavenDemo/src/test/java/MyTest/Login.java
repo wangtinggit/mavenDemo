@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class Login {
 	@Test
-	public static void main(String[] args) {
+	public void login(){
 		System.setProperty("webdriver.chrome.driver", "D:\\Program Files\\driver\\chromedriver.exe");
 		WebDriver chrome = new ChromeDriver();
 		chrome.get("http://127.0.0.1:8086/discuz/");
