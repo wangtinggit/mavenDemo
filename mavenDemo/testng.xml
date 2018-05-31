@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="DiscuzTest">
+	<test name="froum">
+		<classes>
+			<class name="MyTest.TestDemo"></class>
+			<class name="MyTest.TestDemo2"></class>
+			<class name="MyTest.Login"></class>
+		</classes>
+	</test>
+
+</suite>
