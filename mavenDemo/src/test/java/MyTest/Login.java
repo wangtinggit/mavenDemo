@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Login {
+public class Login extends TestDemo {
 	@Test
 	public void login(){
 		System.setProperty("webdriver.chrome.driver", "D:\\Program Files\\driver\\chromedriver.exe");

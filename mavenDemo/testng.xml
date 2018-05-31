@@ -2,7 +2,6 @@
 <suite name="DiscuzTest">
 	<test name="froum">
 		<classes>
-			<class name="MyTest.TestDemo"></class>
 			<class name="MyTest.TestDemo2"></class>
 			<class name="MyTest.Login"></class>
 		</classes>
